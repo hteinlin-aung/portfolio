@@ -2,7 +2,7 @@
 
 Personal portfolio site built with React, Vite and Material UI.
 
-**Live site:** []
+**Live site:** [https://htainlin.netlify.app/]
 
 ## About
 
