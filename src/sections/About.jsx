@@ -64,8 +64,8 @@ export default function About() {
             </Typography>
 
             <Typography sx={{ mt: 2, fontSize: 16, opacity: 0.9, maxWidth: 620 }}>
-              Final-year IT student at Stamford International University, graduating
-              December 2026. I build responsive React applications — including a
+              IT graduate from Stamford International University (degree conferred
+              December 2026). I build responsive React applications — including a
               live commercial website and a business management system shipped
               during my internship at NK Software House.
             </Typography>

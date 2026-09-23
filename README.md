@@ -6,8 +6,8 @@ Personal portfolio site built with React, Vite and Material UI.
 
 ## About
 
-I'm a Information Technology student at Stamford International
-University in Bangkok, graduating in December 2026. This site showcases my
+I've completed my BSc in Information Technology at Stamford International
+University in Bangkok, with graduation in December 2026. This site showcases my
 commercial and academic work, my skills, and how to get in touch.
 
 ## Tech stack

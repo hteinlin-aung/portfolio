@@ -69,7 +69,7 @@ export default function Education() {
             </Typography>
 
             <Typography sx={{ mt: 0.4, opacity: 0.65 }}>
-              (2023) – (expected graduation - 2026)
+              2023 – 2026 · Completed, graduating December 2026
             </Typography>
 
             <Divider sx={{ my: 2 }} />
