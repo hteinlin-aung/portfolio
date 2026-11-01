@@ -43,6 +43,6 @@ npm run lint       # run ESLint
 
 ## Contact
 
-- Email: hteinlin1124@gmail.com
+- Email: htein.ang@gmail.com
 - GitHub: https://github.com/hteinlin-aung
 - LinkedIn: https://www.linkedin.com/in/htainlin-aung-9a7ba7272/

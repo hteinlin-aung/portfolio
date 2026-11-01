@@ -29,7 +29,7 @@ const links = [
   },
   {
     key: "email",
-    href: "mailto:hteinlin1124@gmail.com",
+    href: "mailto:htein.ang@gmail.com",
     icon: <EmailIcon fontSize="medium" />,
     title: "Email",
     subtitle: "Send me a message",

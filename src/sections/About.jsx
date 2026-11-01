@@ -151,7 +151,7 @@ export default function About() {
               </Typography>
 
               <Typography sx={{ opacity: 0.85 }}>
-                Email: hteinlin1124@gmail.com
+                Email: htein.ang@gmail.com
               </Typography>
             </Paper>
 

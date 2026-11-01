@@ -62,7 +62,7 @@ export default function Navbar() {
             <IconButton aria-label="LinkedIn" href="https://www.linkedin.com/in/htainlin-aung-9a7ba7272/" target="_blank">
                 <LinkedInIcon />
             </IconButton>
-            <IconButton aria-label="Email" href="mailto:hteinlin1124@gmail.com">
+            <IconButton aria-label="Email" href="mailto:htein.ang@gmail.com">
                 <EmailIcon />
             </IconButton>
         </Box>

@@ -14,7 +14,7 @@ export default function Projects() {
     <Section id="projects" variant="plain">
       <SectionTitle
         title="Project Showcase"
-        subtitle="Commercial applications I've built and shipped."
+        subtitle="Commercial work from my internship, and the projects I build on my own."
       />
 
       <Box sx={{ mt: 1, mb: 2.5 }}>

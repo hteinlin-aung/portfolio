@@ -12,9 +12,11 @@ import CodeIcon from "@mui/icons-material/Code"
 import DnsIcon from "@mui/icons-material/Dns"
 import TerminalIcon from "@mui/icons-material/Terminal"
 import BuildIcon from "@mui/icons-material/Build"
+import SmartToyIcon from "@mui/icons-material/SmartToy"
 
 const groupStyle = {
   Frontend: { icon: CodeIcon, color: "#0ea5e9" },
+  "AI & Agents": { icon: SmartToyIcon, color: "#ec4899" },
   "Backend & APIs": { icon: DnsIcon, color: "#22c55e" },
   Languages: { icon: TerminalIcon, color: "#8b5cf6" },
   "Tools & Workflow": { icon: BuildIcon, color: "#f59e0b" },
@@ -30,13 +32,18 @@ export default function Skills() {
 
       <Box sx={{ mb: { xs: 5, md: 4 } }}>
         <Grid container spacing={2.5}>
-          {skills.map((group) => {
+          {skills.map((group, index) => {
             const style = groupStyle[group.title]
             const Icon = style ? style.icon : CodeIcon
             const color = style ? style.color : "#0ea5e9"
 
+            // With an odd number of cards the last one would sit alone on half
+            // a row, so let it fill the width instead.
+            const isLonelyLast =
+              skills.length % 2 === 1 && index === skills.length - 1
+
             return (
-              <Grid key={group.title} size={{ xs: 12, md: 6 }}>
+              <Grid key={group.title} size={{ xs: 12, md: isLonelyLast ? 12 : 6 }}>
                 <Paper
                   elevation={0}
                   sx={{
